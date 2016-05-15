@@ -37,13 +37,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require "rmrevin/yii2-fontawesome:~2.14"
+composer require "tsaoko/yii2-fontawesome:~2.14"
 ```
 
 or add
 
 ```
-"rmrevin/yii2-fontawesome": "~2.14",
+"tsaoko/yii2-fontawesome": "~2.14",
 ```
 
 to the `require` section of your `composer.json` file.
@@ -54,7 +54,7 @@ Usage
 In view
 
 ```php
-rmrevin\yii\fontawesome\AssetBundle::register($this);
+tsaoko\fontawesome\AssetBundle::register($this);
 
 ```
 
@@ -67,7 +67,7 @@ class AppAsset extends AssetBundle
 
 	public $depends = [
 		// ...
-		'\rmrevin\yii\fontawesome\AssetBundle'
+		'\tsaoko\fontawesome\AssetBundle'
 	];
 }
 
@@ -76,7 +76,7 @@ class AppAsset extends AssetBundle
 Class reference
 ---------------
 
-Namespace: `rmrevin\yii\fontawesome`;
+Namespace: `tsaoko\fontawesome`;
 
 ###Class `FA` or `FontAwesome`
 
