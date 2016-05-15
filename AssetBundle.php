@@ -5,7 +5,7 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\fontawesome;
+namespace fontawesome;
 
 /**
  * Class AssetBundle

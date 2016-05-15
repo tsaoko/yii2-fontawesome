@@ -5,9 +5,9 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\fontawesome\component;
+namespace fontawesome\component;
 
-use rmrevin\yii\fontawesome\FA;
+use fontawesome\FA;
 use yii\helpers\Html;
 
 /**

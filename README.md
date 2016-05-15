@@ -1,6 +1,12 @@
 Yii 2 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) Asset Bundle
 ===============================
 
+基于这个项目，需要增加以下内容：
+1. 把命名空间弄漂亮点；
+2. 增加颜色方法;
+3. 增加易扩充功能;
+
+
 This extension provides a assets bundle with [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 for [Yii framework 2.0](http://www.yiiframework.com/) applications and helper to use icons.
 
@@ -129,7 +135,7 @@ echo FA::i('home'); // <i class="fa fa-home"></i>
 
 // icon with additional attributes
 echo FA::icon(
-    'arrow-left', 
+    'arrow-left',
     ['class' => 'big', 'data-role' => 'arrow']
 ); // <i class="big fa fa-arrow-left" data-role="arrow"></i>
 
@@ -154,12 +160,12 @@ echo FA::icon('cog')->size(FA::SIZE_3X);
 // <i class="fa fa-cog fa-size-3x"></i>
 
 // icon rotate
-echo FA::icon('cog')->rotate(FA::ROTATE_90); 
+echo FA::icon('cog')->rotate(FA::ROTATE_90);
 // values: FA::ROTATE_90, FA::ROTATE_180, FA::ROTATE_180
 // <i class="fa fa-cog fa-rotate-90"></i>
 
 // icon flip
-echo FA::icon('cog')->flip(FA::FLIP_VERTICAL); 
+echo FA::icon('cog')->flip(FA::FLIP_VERTICAL);
 // values: FA::FLIP_HORIZONTAL, FA::FLIP_VERTICAL
 // <i class="fa fa-cog fa-flip-vertical"></i>
 
