@@ -125,7 +125,7 @@ Helper examples
 ---------------
 
 ```php
-use rmrevin\yii\fontawesome\FA;
+use tsaoko\fontawesome\FA;
 
 // normal use
 echo FA::icon('home'); // <i class="fa fa-home"></i>
